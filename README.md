@@ -1,2 +1,2 @@
 # NAVIGATION-BAR-
-Rsponsive navigation bar . 
+Responsive navigation bar . 
