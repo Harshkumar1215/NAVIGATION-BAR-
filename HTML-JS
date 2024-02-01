@@ -1,0 +1,77 @@
+ <!-- navigation bar -->
+   <!--edite the link for own use --> 	
+	 
+    <nav>
+        <!-- for desktop-->
+        <ul>
+            <li >
+                <a href="https://github.com/Harshkumar1215" >HARSH KUMAR </a>
+            </li>
+            <li class="hide">
+                <a href="https://github.com/Harshkumar1215">Home</a>
+            </li>
+            <li class="hide">
+                <a href="https://github.com/Harshkumar1215">About</a>
+            </li>
+            <li class="hide">
+                <a href="#">Contact</a>
+            </li>
+            <li class="hide">
+                <a href="addmissionForm.html">Admission</a>
+            </li>
+            <li class="hide">
+                <a href="courses.html">Courses</a>
+            </li>
+            <li class="hide">
+                <a href="enquiry.html">Enquiry</a>
+            </li>
+            <li class="hide">
+                <a href="#">Login</a>
+            </li>
+            <li class="menu-button" onclick="showSidebar()">
+                <a href="#">≡</a>
+            </li>
+        </ul>
+
+         <!-- for sidebar-->
+         <ul class="sidebar">
+            <li onclick="hideSidebar()">
+                <a href="#">✖</a>
+            </li>
+            <li>
+                <a href="https://github.com/Harshkumar1215">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li>
+                <a href="addmissionForm.html">Admission</a>
+            </li>
+            <li >
+                <a href="courses.html">Courses</a>
+            </li>
+            <li>
+                <a href="enquiry.html">Enquiry</a>
+            </li>
+            <li>
+                <a href="#">Login</a>
+            </li>
+        </ul>
+
+         <!--show sidebar script-->
+         <script>
+            function showSidebar()
+            {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'none';
+            }
+        </script>
+    </nav>
